@@ -13,12 +13,15 @@ a {
   display: block;
   clear: both;
 }
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segone Print", sans-serif;
+}
 header {
+  position: relative;
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
-  position: relative;
 }
 /* headerタグ内のheadlineクラスにのみ反映される */
 header .headline {
@@ -31,7 +34,7 @@ header .headline {
 }
 .social i {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .nav-list {
   text-align: center;
